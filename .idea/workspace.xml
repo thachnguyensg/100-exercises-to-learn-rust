@@ -315,18 +315,358 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e8f709a-7cd9-4f86-a446-baaf32226a2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/100-exercises-to-learn-rust.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_intro/00_welcome/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/book.toml" beforeDir="false" afterPath="$PROJECT_DIR$/book/book.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/custom.theme" beforeDir="false" afterPath="$PROJECT_DIR$/book/custom.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/link2alias.json" beforeDir="false" afterPath="$PROJECT_DIR$/book/link2alias.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/metadata.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book/metadata.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/01_intro/00_welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/01_intro/00_welcome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/01_intro/01_syntax.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/01_intro/01_syntax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/01_integers.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/01_integers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/02_variables.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/02_variables.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/03_if_else.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/03_if_else.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/04_panics.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/04_panics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/05_factorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/05_factorial.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/06_while.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/06_while.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/07_for.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/07_for.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/08_overflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/08_overflow.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/09_saturating.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/09_saturating.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/02_basic_calculator/10_as_casting.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/02_basic_calculator/10_as_casting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/01_struct.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/01_struct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/02_validation.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/02_validation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/03_modules.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/03_modules.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/04_visibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/04_visibility.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/05_encapsulation.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/05_encapsulation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/06_ownership.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/06_ownership.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/07_setters.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/07_setters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/08_stack.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/08_stack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/09_heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/09_heap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/10_references_in_memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/10_references_in_memory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/11_destructor.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/11_destructor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/03_ticket_v1/12_outro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/03_ticket_v1/12_outro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/01_trait.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/01_trait.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/02_orphan_rule.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/02_orphan_rule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/03_operator_overloading.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/03_operator_overloading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/04_derive.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/04_derive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/05_trait_bounds.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/05_trait_bounds.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/06_str_slice.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/06_str_slice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/07_deref.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/07_deref.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/08_sized.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/08_sized.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/09_from.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/09_from.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/10_assoc_vs_generic.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/10_assoc_vs_generic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/11_clone.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/11_clone.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/12_copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/12_copy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/13_drop.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/13_drop.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/04_traits/14_outro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/04_traits/14_outro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/01_enum.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/01_enum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/02_match.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/02_match.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/03_variants_with_data.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/03_variants_with_data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/04_if_let.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/04_if_let.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/05_nullability.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/05_nullability.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/06_fallibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/06_fallibility.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/07_unwrap.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/07_unwrap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/08_error_enums.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/08_error_enums.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/09_error_trait.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/09_error_trait.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/10_packages.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/10_packages.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/11_dependencies.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/11_dependencies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/12_thiserror.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/12_thiserror.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/13_try_from.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/13_try_from.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/14_source.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/14_source.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/05_ticket_v2/15_outro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/05_ticket_v2/15_outro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/01_arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/01_arrays.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/02_vec.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/02_vec.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/03_resizing.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/03_resizing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/04_iterators.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/04_iterators.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/05_iter.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/05_iter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/06_lifetimes.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/06_lifetimes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/07_combinators.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/07_combinators.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/08_impl_trait.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/08_impl_trait.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/09_impl_trait_2.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/09_impl_trait_2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/10_slices.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/10_slices.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/11_mutable_slices.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/11_mutable_slices.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/12_two_states.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/12_two_states.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/13_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/13_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/14_index_mut.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/14_index_mut.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/15_hashmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/15_hashmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/06_ticket_management/16_btreemap.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/06_ticket_management/16_btreemap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/01_threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/01_threads.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/02_static.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/02_static.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/03_leak.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/03_leak.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/04_scoped_threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/04_scoped_threads.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/05_channels.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/05_channels.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/06_interior_mutability.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/06_interior_mutability.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/07_ack.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/07_ack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/08_client.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/08_client.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/09_bounded.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/09_bounded.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/10_patch.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/10_patch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/11_locks.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/11_locks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/12_rw_lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/12_rw_lock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/13_without_channels.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/13_without_channels.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/07_threads/14_sync.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/07_threads/14_sync.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/00_intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/00_intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/01_async_fn.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/01_async_fn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/02_spawn.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/02_spawn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/03_runtime.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/03_runtime.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/04_future.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/04_future.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/05_blocking.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/05_blocking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/06_async_aware_primitives.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/06_async_aware_primitives.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/07_cancellation.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/07_cancellation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/08_futures/08_outro.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/08_futures/08_outro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/going_further.md" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/going_further.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dprint.json" beforeDir="false" afterPath="$PROJECT_DIR$/dprint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_intro/00_welcome/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_intro/01_syntax/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/01_struct/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/02_validation/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/03_modules/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/04_visibility/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/05_encapsulation/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/06_ownership/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/tests/integration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/tests/integration.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/01_trait/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/01_trait/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/01_trait/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/01_trait/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/02_orphan_rule/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/02_orphan_rule/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/02_orphan_rule/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/02_orphan_rule/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/03_operator_overloading/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/03_operator_overloading/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/03_operator_overloading/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/03_operator_overloading/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/04_derive/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/04_derive/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/04_derive/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/04_derive/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/05_trait_bounds/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/05_trait_bounds/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/05_trait_bounds/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/05_trait_bounds/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/06_str_slice/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/06_str_slice/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/06_str_slice/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/06_str_slice/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/07_deref/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/07_deref/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/07_deref/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/07_deref/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/08_sized/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/08_sized/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/08_sized/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/08_sized/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/09_from/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/09_from/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/09_from/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/09_from/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/10_assoc_vs_generic/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/10_assoc_vs_generic/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/10_assoc_vs_generic/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/10_assoc_vs_generic/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/11_clone/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/11_clone/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/11_clone/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/11_clone/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/12_copy/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/12_copy/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/13_drop/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/13_drop/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/tests/integration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/tests/integration.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/01_enum/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/01_enum/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/01_enum/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/01_enum/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/02_match/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/02_match/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/02_match/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/02_match/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/03_variants_with_data/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/03_variants_with_data/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/03_variants_with_data/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/03_variants_with_data/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/04_if_let/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/04_if_let/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/04_if_let/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/04_if_let/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/05_nullability/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/05_nullability/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/05_nullability/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/05_nullability/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/06_fallibility/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/06_fallibility/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/06_fallibility/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/06_fallibility/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/07_unwrap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/07_unwrap/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/07_unwrap/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/07_unwrap/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/08_error_enums/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/08_error_enums/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/08_error_enums/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/08_error_enums/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/09_error_trait/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/09_error_trait/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/09_error_trait/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/09_error_trait/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/10_packages/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/10_packages/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/10_packages/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/10_packages/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/11_dependencies/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/11_dependencies/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/11_dependencies/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/11_dependencies/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/12_thiserror/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/12_thiserror/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/12_thiserror/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/12_thiserror/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/13_try_from/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/13_try_from/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/13_try_from/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/13_try_from/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/src/status.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/src/status.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/description.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/description.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/status.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/status.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/title.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/title.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/01_arrays/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/01_arrays/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/01_arrays/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/01_arrays/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/02_vec/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/02_vec/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/02_vec/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/02_vec/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/03_resizing/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/03_resizing/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/03_resizing/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/03_resizing/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/04_iterators/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/04_iterators/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/04_iterators/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/04_iterators/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/05_iter/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/05_iter/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/05_iter/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/05_iter/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/06_lifetimes/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/06_lifetimes/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/06_lifetimes/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/06_lifetimes/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/09_impl_trait_2/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/09_impl_trait_2/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/09_impl_trait_2/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/09_impl_trait_2/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/10_slices/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/10_slices/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/10_slices/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/10_slices/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/11_mutable_slices/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/11_mutable_slices/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/11_mutable_slices/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/11_mutable_slices/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/12_two_states/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/12_two_states/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/12_two_states/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/12_two_states/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/13_index/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/13_index/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/13_index/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/13_index/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/14_index_mut/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/14_index_mut/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/14_index_mut/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/14_index_mut/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/15_hashmap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/15_hashmap/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/15_hashmap/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/15_hashmap/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/16_btreemap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/16_btreemap/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/16_btreemap/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/16_btreemap/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/01_threads/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/01_threads/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/01_threads/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/01_threads/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/02_static/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/02_static/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/02_static/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/02_static/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/03_leak/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/03_leak/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/03_leak/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/03_leak/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/04_scoped_threads/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/04_scoped_threads/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/04_scoped_threads/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/04_scoped_threads/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/05_channels/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/05_channels/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/05_channels/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/05_channels/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/05_channels/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/05_channels/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/05_channels/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/05_channels/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/05_channels/tests/insert.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/05_channels/tests/insert.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/06_interior_mutability/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/06_interior_mutability/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/06_interior_mutability/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/06_interior_mutability/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/07_ack/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/07_ack/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/07_ack/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/07_ack/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/07_ack/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/07_ack/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/07_ack/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/07_ack/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/07_ack/tests/insert.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/07_ack/tests/insert.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/08_client/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/08_client/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/08_client/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/08_client/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/08_client/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/08_client/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/08_client/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/08_client/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/08_client/tests/insert.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/08_client/tests/insert.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/09_bounded/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/09_bounded/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/09_bounded/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/09_bounded/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/09_bounded/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/09_bounded/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/09_bounded/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/09_bounded/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/09_bounded/tests/insert.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/09_bounded/tests/insert.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/10_patch/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/10_patch/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/10_patch/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/10_patch/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/10_patch/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/10_patch/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/10_patch/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/10_patch/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/10_patch/tests/check.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/10_patch/tests/check.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/11_locks/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/11_locks/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/11_locks/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/11_locks/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/11_locks/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/11_locks/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/11_locks/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/11_locks/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/11_locks/tests/check.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/11_locks/tests/check.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/tests/check.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/12_rw_lock/tests/check.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/src/data.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/src/data.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/tests/check.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/13_without_channels/tests/check.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/14_sync/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/14_sync/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_threads/14_sync/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_threads/14_sync/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/00_intro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/00_intro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/01_async_fn/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/01_async_fn/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/01_async_fn/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/01_async_fn/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/02_spawn/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/02_spawn/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/02_spawn/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/02_spawn/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/03_runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/03_runtime/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/03_runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/03_runtime/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/04_future/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/04_future/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/04_future/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/04_future/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/05_blocking/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/05_blocking/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/05_blocking/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/05_blocking/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/06_async_aware_primitives/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/06_async_aware_primitives/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/06_async_aware_primitives/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/06_async_aware_primitives/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/07_cancellation/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/07_cancellation/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/07_cancellation/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/07_cancellation/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/08_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/08_outro/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/08_futures/08_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_futures/08_outro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/common/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/common/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/common/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/common/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/json2redirects.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/json2redirects.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/mdbook-exercise-linker/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/mdbook-exercise-linker/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/mdbook-exercise-linker/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/mdbook-exercise-linker/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/mdbook-exercise-linker/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/mdbook-exercise-linker/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/mdbook-link-shortener/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/mdbook-link-shortener/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/mdbook-link-shortener/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/mdbook-link-shortener/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/mdbook-link-shortener/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/mdbook-link-shortener/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/ticket_fields/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ticket_fields/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/ticket_fields/src/description.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ticket_fields/src/description.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/ticket_fields/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ticket_fields/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/ticket_fields/src/test_helpers.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ticket_fields/src/test_helpers.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/ticket_fields/src/title.rs" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ticket_fields/src/title.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/site/_redirects" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:test" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -344,12 +684,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cargo.Build intro_01.executor": "Run",
+    "Cargo.Test lib::tests (1).executor": "Run",
+    "Cargo.Test lib::tests (2).executor": "Run",
+    "Cargo.Test lib::tests (3).executor": "Run",
+    "Cargo.Test lib::tests (4).executor": "Run",
+    "Cargo.Test lib::tests (5).executor": "Run",
+    "Cargo.Test lib::tests.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "9b75c7e6",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -363,25 +709,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Build intro_01">
-    <configuration name="Build intro_01" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="dev" />
-      <option name="command" value="build --package intro_01 --lib" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cargo.Test lib::tests (5)">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -451,9 +779,98 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test lib::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package integers --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test lib::tests (2)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package variables --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test lib::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package if_else --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test lib::tests (4)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package panics --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test lib::tests (5)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package factorial --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Build intro_01" />
+        <item itemvalue="Cargo.Test lib::tests (5)" />
+        <item itemvalue="Cargo.Test lib::tests (4)" />
+        <item itemvalue="Cargo.Test lib::tests (3)" />
+        <item itemvalue="Cargo.Test lib::tests (2)" />
+        <item itemvalue="Cargo.Test lib::tests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +886,7 @@
       <updated>1745469294549</updated>
       <workItem from="1745469296230" duration="865000" />
       <workItem from="1745476836319" duration="1879000" />
+      <workItem from="1745478788022" duration="1429000" />
     </task>
     <servers />
   </component>
