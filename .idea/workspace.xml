@@ -438,7 +438,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating/Cargo.toml" afterDir="false" />
@@ -695,7 +694,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "2c0b6056",
+    "git-widget-placeholder": "f8ab94e9",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -704,12 +703,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
     "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test lib::tests (1)">
+  <component name="RunManager" selected="Cargo.Test lib::tests (2)">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -796,8 +796,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package if_else --lib tests" />
+    <configuration name="Test lib::tests (2)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package overflow --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -866,11 +866,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test lib::tests (2)" />
         <item itemvalue="Cargo.Test lib::tests (1)" />
         <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Test lib::tests (5)" />
         <item itemvalue="Cargo.Test lib::tests (4)" />
-        <item itemvalue="Cargo.Test lib::tests (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -886,7 +886,7 @@
       <updated>1745469294549</updated>
       <workItem from="1745469296230" duration="865000" />
       <workItem from="1745476836319" duration="1879000" />
-      <workItem from="1745478788022" duration="1769000" />
+      <workItem from="1745478788022" duration="3737000" />
     </task>
     <servers />
   </component>
