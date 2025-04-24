@@ -317,9 +317,7 @@
     <list default="true" id="6e8f709a-7cd9-4f86-a446-baaf32226a2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/book.toml" beforeDir="false" afterPath="$PROJECT_DIR$/book/book.toml" afterDir="false" />
@@ -694,7 +692,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "f8ab94e9",
+    "git-widget-placeholder": "82544f40",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -886,7 +884,7 @@
       <updated>1745469294549</updated>
       <workItem from="1745469296230" duration="865000" />
       <workItem from="1745476836319" duration="1879000" />
-      <workItem from="1745478788022" duration="3737000" />
+      <workItem from="1745478788022" duration="4200000" />
     </task>
     <servers />
   </component>
