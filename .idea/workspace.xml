@@ -454,7 +454,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/tests/integration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/tests/integration.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/00_intro/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/00_intro/src/lib.rs" afterDir="false" />
@@ -674,6 +673,11 @@
     "Cargo.Test lib::tests (4).executor": "Run",
     "Cargo.Test lib::tests (5).executor": "Run",
     "Cargo.Test lib::tests.executor": "Run",
+    "Cargo.Test test_empty_product_name.executor": "Run",
+    "Cargo.Test test_long_product_name.executor": "Run",
+    "Cargo.Test test_order.executor": "Run",
+    "Cargo.Test test_zero_quantity.executor": "Run",
+    "Cargo.Test test_zero_unit_price.executor": "Run",
     "Cargo.Test tests::bool_to_u8.executor": "Run",
     "Cargo.Test tests::string_size.executor": "Run",
     "Cargo.Test tests::ticket_ref_size.executor": "Run",
@@ -687,7 +691,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "685b8998",
+    "git-widget-placeholder": "83fde70c",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -702,7 +706,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test lib::tests">
+  <component name="RunManager" selected="Cargo.Test test_zero_unit_price">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -772,8 +776,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package destructor --lib tests" />
+    <configuration name="Test test_empty_product_name" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_02 --test integration test_empty_product_name -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -789,8 +793,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::ticket_ref_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package references_in_memory --lib tests::ticket_ref_size -- --exact" />
+    <configuration name="Test test_long_product_name" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_02 --test integration test_long_product_name -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -806,8 +810,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::ticket_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package heap --lib tests::ticket_size -- --exact" />
+    <configuration name="Test test_order" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_02 --test integration test_order -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -823,8 +827,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::u16_ref_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package references_in_memory --lib tests::u16_ref_size -- --exact" />
+    <configuration name="Test test_zero_quantity" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_02 --test integration test_zero_quantity -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -840,8 +844,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::u64_mut_ref_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package references_in_memory --lib tests::u64_mut_ref_size -- --exact" />
+    <configuration name="Test test_zero_unit_price" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_02 --test integration test_zero_unit_price -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -859,11 +863,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Test lib::tests" />
-        <item itemvalue="Cargo.Test tests::ticket_ref_size" />
-        <item itemvalue="Cargo.Test tests::u64_mut_ref_size" />
-        <item itemvalue="Cargo.Test tests::u16_ref_size" />
-        <item itemvalue="Cargo.Test tests::ticket_size" />
+        <item itemvalue="Cargo.Test test_zero_unit_price" />
+        <item itemvalue="Cargo.Test test_zero_quantity" />
+        <item itemvalue="Cargo.Test test_long_product_name" />
+        <item itemvalue="Cargo.Test test_empty_product_name" />
+        <item itemvalue="Cargo.Test test_order" />
       </list>
     </recent_temporary>
   </component>
@@ -881,7 +885,7 @@
       <workItem from="1745476836319" duration="1879000" />
       <workItem from="1745478788022" duration="9453000" />
       <workItem from="1745545846648" duration="3435000" />
-      <workItem from="1745550763893" duration="7791000" />
+      <workItem from="1745550763893" duration="8657000" />
     </task>
     <servers />
   </component>
