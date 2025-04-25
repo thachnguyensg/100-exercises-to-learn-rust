@@ -317,7 +317,6 @@
     <list default="true" id="6e8f709a-7cd9-4f86-a446-baaf32226a2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book/.gitignore" afterDir="false" />
@@ -453,9 +452,7 @@
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/tests/integration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/12_outro/tests/integration.rs" afterDir="false" />
@@ -679,16 +676,18 @@
     "Cargo.Test lib::tests.executor": "Run",
     "Cargo.Test tests::bool_to_u8.executor": "Run",
     "Cargo.Test tests::string_size.executor": "Run",
+    "Cargo.Test tests::ticket_ref_size.executor": "Run",
     "Cargo.Test tests::ticket_size.executor": "Run",
     "Cargo.Test tests::u16_ref_size.executor": "Run",
     "Cargo.Test tests::u16_to_u32.executor": "Run",
+    "Cargo.Test tests::u64_mut_ref_size.executor": "Run",
     "Cargo.Test tests::u8_to_i8.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "fee6d25c",
+    "git-widget-placeholder": "685b8998",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -703,7 +702,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test tests::ticket_ref_size">
+  <component name="RunManager" selected="Cargo.Test lib::tests">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -773,8 +772,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::string_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package heap --lib tests::string_size -- --exact" />
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package destructor --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -860,11 +859,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Test tests::ticket_ref_size" />
         <item itemvalue="Cargo.Test tests::u64_mut_ref_size" />
         <item itemvalue="Cargo.Test tests::u16_ref_size" />
         <item itemvalue="Cargo.Test tests::ticket_size" />
-        <item itemvalue="Cargo.Test tests::string_size" />
       </list>
     </recent_temporary>
   </component>
@@ -882,7 +881,7 @@
       <workItem from="1745476836319" duration="1879000" />
       <workItem from="1745478788022" duration="9453000" />
       <workItem from="1745545846648" duration="3435000" />
-      <workItem from="1745550763893" duration="6982000" />
+      <workItem from="1745550763893" duration="7791000" />
     </task>
     <servers />
   </component>
