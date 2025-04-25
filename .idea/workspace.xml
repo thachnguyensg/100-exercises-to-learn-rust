@@ -317,6 +317,7 @@
     <list default="true" id="6e8f709a-7cd9-4f86-a446-baaf32226a2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book/.gitignore" afterDir="false" />
@@ -884,7 +885,7 @@
       <workItem from="1745476836319" duration="1879000" />
       <workItem from="1745478788022" duration="9453000" />
       <workItem from="1745545846648" duration="3435000" />
-      <workItem from="1745550763893" duration="9500000" />
+      <workItem from="1745550763893" duration="11063000" />
     </task>
     <servers />
   </component>
