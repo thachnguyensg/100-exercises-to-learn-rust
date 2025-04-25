@@ -452,7 +452,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/07_setters/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/08_stack/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/09_heap/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/10_references_in_memory/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_ticket_v1/11_destructor/Cargo.toml" afterDir="false" />
@@ -681,6 +680,7 @@
     "Cargo.Test tests::bool_to_u8.executor": "Run",
     "Cargo.Test tests::string_size.executor": "Run",
     "Cargo.Test tests::ticket_size.executor": "Run",
+    "Cargo.Test tests::u16_ref_size.executor": "Run",
     "Cargo.Test tests::u16_to_u32.executor": "Run",
     "Cargo.Test tests::u8_to_i8.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -688,7 +688,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "f6d9a572",
+    "git-widget-placeholder": "fee6d25c",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -703,7 +703,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test tests::ticket_size">
+  <component name="RunManager" selected="Cargo.Test tests::u16_ref_size">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -758,23 +758,6 @@
     <configuration name="Test 100-exercises-to-learn-rust" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="buildProfileId" value="test" />
       <option name="command" value="test --workspace" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test lib::tests (4)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package ownership --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -858,13 +841,30 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test tests::u16_ref_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package references_in_memory --lib tests::u16_ref_size -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test tests::u16_ref_size" />
         <item itemvalue="Cargo.Test tests::ticket_size" />
         <item itemvalue="Cargo.Test tests::string_size" />
         <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Test lib::tests (5)" />
-        <item itemvalue="Cargo.Test lib::tests (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -882,7 +882,7 @@
       <workItem from="1745476836319" duration="1879000" />
       <workItem from="1745478788022" duration="9453000" />
       <workItem from="1745545846648" duration="3435000" />
-      <workItem from="1745550763893" duration="5999000" />
+      <workItem from="1745550763893" duration="6982000" />
     </task>
     <servers />
   </component>
