@@ -317,6 +317,7 @@
     <list default="true" id="6e8f709a-7cd9-4f86-a446-baaf32226a2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book/.gitignore" afterDir="false" />
@@ -468,7 +469,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/09_from/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/09_from/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/10_assoc_vs_generic/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/10_assoc_vs_generic/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/11_clone/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/11_clone/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/11_clone/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/11_clone/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/12_copy/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/12_copy/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" afterDir="false" />
@@ -682,7 +682,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "dc8bd9dc",
+    "git-widget-placeholder": "032a8c89",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -877,7 +877,7 @@
       <workItem from="1745478788022" duration="9453000" />
       <workItem from="1745545846648" duration="3435000" />
       <workItem from="1745550763893" duration="13319000" />
-      <workItem from="1745632450176" duration="9550000" />
+      <workItem from="1745632450176" duration="10794000" />
     </task>
     <servers />
   </component>
