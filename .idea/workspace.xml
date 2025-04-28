@@ -472,7 +472,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/tests/integration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/tests/integration.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/00_intro/src/lib.rs" afterDir="false" />
@@ -680,7 +679,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "7836c628",
+    "git-widget-placeholder": "1f3ee8a7",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -695,7 +694,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test lib::tests (2)">
+  <component name="RunManager" selected="Cargo.Test lib::tests (3)">
     <configuration name="Run mdbook-exercise-linker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package mdbook-exercise-linker --bin mdbook-exercise-linker" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -799,8 +798,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests (4)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package deref --lib tests" />
+    <configuration name="Test lib::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package enum_ --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -852,11 +851,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test lib::tests (3)" />
         <item itemvalue="Cargo.Test lib::tests (2)" />
         <item itemvalue="Cargo.Test lib::tests (1)" />
         <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Test tests::test_power_u16" />
-        <item itemvalue="Cargo.Test lib::tests (4)" />
       </list>
     </recent_temporary>
   </component>
