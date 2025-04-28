@@ -471,7 +471,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/11_clone/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/11_clone/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/12_copy/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/13_drop/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/04_traits/13_drop/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/13_drop/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/04_traits/14_outro/tests/integration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/04_traits/14_outro/tests/integration.rs" afterDir="false" />
@@ -681,7 +680,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "f2703411",
+    "git-widget-placeholder": "7836c628",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -877,6 +876,7 @@
       <workItem from="1745545846648" duration="3435000" />
       <workItem from="1745550763893" duration="13319000" />
       <workItem from="1745632450176" duration="13064000" />
+      <workItem from="1745805905423" duration="851000" />
     </task>
     <servers />
   </component>
