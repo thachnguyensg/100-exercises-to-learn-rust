@@ -317,7 +317,6 @@
     <list default="true" id="6e8f709a-7cd9-4f86-a446-baaf32226a2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/book.toml" beforeDir="false" afterPath="$PROJECT_DIR$/book/book.toml" afterDir="false" />
@@ -490,10 +489,7 @@
       <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/src/status.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/14_source/src/status.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/description.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/description.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/status.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/status.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/title.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/05_ticket_v2/15_outro/src/title.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/00_intro/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/01_arrays/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/01_arrays/Cargo.toml" afterDir="false" />
@@ -646,12 +642,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cargo.Build intro_01.executor": "Run",
+    "Cargo.Test description::tests.executor": "Run",
     "Cargo.Test lib::tests (1).executor": "Run",
     "Cargo.Test lib::tests (2).executor": "Run",
     "Cargo.Test lib::tests (3).executor": "Run",
     "Cargo.Test lib::tests (4).executor": "Run",
     "Cargo.Test lib::tests (5).executor": "Run",
     "Cargo.Test lib::tests.executor": "Run",
+    "Cargo.Test status::tests.executor": "Run",
     "Cargo.Test test_empty_product_name.executor": "Run",
     "Cargo.Test test_long_product_name.executor": "Run",
     "Cargo.Test test_order.executor": "Run",
@@ -672,7 +670,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "30b6d6ba",
+    "git-widget-placeholder": "4daf31dc",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -757,6 +755,23 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test description::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_04 --lib description::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test lib::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package tryfrom --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -791,25 +806,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests (5)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package error_trait --lib tests" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package thiserror_ --lib tests" />
+    <configuration name="Test status::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package outro_04 --lib status::tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -845,10 +843,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Test title::tests" />
+        <item itemvalue="Cargo.Test description::tests" />
+        <item itemvalue="Cargo.Test status::tests" />
         <item itemvalue="Cargo.Test lib::tests (2)" />
         <item itemvalue="Cargo.Test lib::tests (1)" />
-        <item itemvalue="Cargo.Test lib::tests" />
-        <item itemvalue="Cargo.Test lib::tests (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -869,7 +867,7 @@
       <workItem from="1745550763893" duration="13319000" />
       <workItem from="1745632450176" duration="13064000" />
       <workItem from="1745805905423" duration="851000" />
-      <workItem from="1745892106227" duration="982000" />
+      <workItem from="1745892106227" duration="1550000" />
     </task>
     <servers />
   </component>
