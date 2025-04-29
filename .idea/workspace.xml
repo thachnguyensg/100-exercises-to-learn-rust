@@ -500,7 +500,6 @@
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/05_iter/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/05_iter/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/06_lifetimes/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/06_lifetimes/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/07_combinators/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/08_impl_trait/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/06_ticket_management/09_impl_trait_2/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/06_ticket_management/09_impl_trait_2/Cargo.toml" afterDir="false" />
@@ -665,7 +664,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "ffc2b1f5",
+    "git-widget-placeholder": "dbe50f6c",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Source/Git/_Learning/rust/100-exercises-to-learn-rust",
     "node.js.detected.package.eslint": "true",
@@ -862,7 +861,7 @@
       <workItem from="1745550763893" duration="13319000" />
       <workItem from="1745632450176" duration="13064000" />
       <workItem from="1745805905423" duration="851000" />
-      <workItem from="1745892106227" duration="8642000" />
+      <workItem from="1745892106227" duration="10624000" />
     </task>
     <servers />
   </component>
